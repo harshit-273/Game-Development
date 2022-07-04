@@ -19,6 +19,7 @@ def player(x, y):
 	screen.blit(playerImg, (x, y))
 
 enemyImg = pygame.image.load('enemy.png')
+# randomizing enemy spawning
 enemyX = random.randint(0, 736)
 enemyY = random.randint(0, 450)
 
