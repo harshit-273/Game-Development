@@ -1,11 +1,10 @@
-from typing import no_type_check
 import pygame
 import random
 import math
 
 pygame.init()
 
-screen = pygame.display.set_mode((800, 600))
+screen = pygame.display.set_mode((800, 600)) 
 
 pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load('icon.png')
